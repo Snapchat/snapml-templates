@@ -10,6 +10,7 @@ SnapML overview https://lensstudio.snapchat.com/guides/machine-learning/
 ## Style Transfer
 Allows you to train Style Transfer model based on provided image. 
 - Notebook https://github.com/Snapchat/snapml-templates/blob/main/Style%20Transfer/style_transfer.ipynb
+- Dataset COCO dataset http://cocodataset.org/#explore
 - Template is built into the Lens Studio, Category - Machine Learning
 - Guide https://lensstudio.snapchat.com/templates/ml/style-transfer/
 
@@ -17,24 +18,28 @@ Allows you to train Style Transfer model based on provided image.
 ## Classification
 Provides an example of binary classification 
 - Notebook https://github.com/Snapchat/snapml-templates/blob/main/Classification/eyeglasses_classification.ipynb
+- Dataset CelebA https://drive.google.com/drive/folders/0B7EVK8r0v71pWEZsZE9oNnFzTm8
 - Template is built into the Lens Studio, Category - Machine Learning
 - Guide https://lensstudio.snapchat.com/templates/ml/classification/
 
 ## Object Detection 
 Provides an example of the car detection  
 - Notebook https://github.com/Snapchat/snapml-templates/blob/main/Object%20Detection/object_detection.ipynb
+- Dataset COCO dataset http://cocodataset.org/#explore
 - Template is built into the Lens Studio, Category - Machine Learning
 - Template Guide - https://lensstudio.snapchat.com/templates/ml/object-detection/
 
 ## Custom Segmentation 
 Provides an example of pizza segmentation  
 - Notebook https://github.com/Snapchat/snapml-templates/blob/main/Custom%20Segmentation/segmentation_training.ipynb
+- Dataset COCO dataset http://cocodataset.org/#explore 
 - Template is built into the Lens Studio, Category - Machine Learning
 - Template Guide https://lensstudio.snapchat.com/templates/ml/custom-segmentation/
 
 ## Keyword Detection 
 Provides an example of training a model that classifies spectrogram images generated from audio.
 - Notebook https://github.com/Snapchat/snapml-templates/blob/main/Keyword%20Detection/Keyword_Detection.ipynb
+- Dataset SpeechCommands https://arxiv.org/abs/1804.03209
 - Template is built-into the Lens Studio, category - Audio
 - Template Guide https://lensstudio.snapchat.com/templates/audio/keyword-detection/
 
