@@ -49,14 +49,15 @@ Provides an example of training a model that classifies spectrogram images gener
 
 <img src="https://user-images.githubusercontent.com/84346153/150581018-e4395543-8685-4d54-a351-a0eb0813cc27.gif" width="200">
 
-- Notebook https://github.com/Snapchat/snapml-templates/blob/main/Keyword%20Detection/Keyword_Detection.ipynb
-- Dataset: (SpeechCommands)[https://arxiv.org/abs/1804.03209]
+- [Notebook](https://github.com/Snapchat/snapml-templates/blob/main/Keyword%20Detection/Keyword_Detection.ipynb)
+- Dataset: [SpeechCommands](https://arxiv.org/abs/1804.03209)
 - [Template Guide](https://lensstudio.snapchat.com/templates/audio/keyword-detection/)
 
 ## Image-to-Image Translation
 Demonstrates how to train and compress popular image-to-image networks like [CycleGAN](https://junyanz.github.io/CycleGAN/) and [Pix2Pix](https://phillipi.github.io/pix2pix/) so that we could achieve real time performance on mobile devices. 
 
 <img src="https://user-images.githubusercontent.com/84346153/150579553-1b48de31-1fb2-47a7-93fb-7a3dd4369870.gif" width="200">
+
 - [Notebook](https://github.com/Snapchat/snapml-templates/blob/main/Image-to-Image%20Translation/Image_to_Image_translation_with_GAN_Compression.ipynb)
 - [Template Guide](https://lensstudio.snapchat.com/templates/ml/style-transfer/) (This model is compatible with Style Transfer Template)
 
