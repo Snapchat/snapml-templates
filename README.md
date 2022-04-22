@@ -61,7 +61,14 @@ Demonstrates how to train and compress popular image-to-image networks like [Cyc
 - [Notebook](https://github.com/Snapchat/snapml-templates/blob/main/Image-to-Image%20Translation/Image_to_Image_translation_with_GAN_Compression.ipynb)
 - [Template Guide](https://lensstudio.snapchat.com/templates/ml/style-transfer/) (This model is compatible with Style Transfer Template)
 
+## Multi Class Classification with Quantization
+Demonstrates how to train an image classification models with Keras and TFLite model maker and quantize them using TensorFlow
 
+<img src="https://user-images.githubusercontent.com/84346153/164765465-8ec22c64-e134-4cb6-903f-57e5c55b4c71.gif" width="200">
+
+
+- [Notebook](https://github.com/Snapchat/snapml-templates/blob/main/Quantization%20With%20TFLite/classification_and_quantization_with_tflite.ipynb)
+- [Template Guide](https://docs.snap.com/lens-studio/references/templates/ml/multi-class-classification)
 
 ## License
 A license file is included with each folder project. The full license can be found here: https://lensstudio.snapchat.com/template-license
