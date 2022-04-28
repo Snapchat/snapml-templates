@@ -1,3 +1,6 @@
+# test jenkins
+2022.04.28 please!
+
 # snapml-templates
 This repository provides training notebooks for Lens Studio templates powered with Snap ML.
 Each notebook allows to train a model which then can be brought into Lens Studio project.
