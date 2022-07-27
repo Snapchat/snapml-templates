@@ -70,5 +70,10 @@ Demonstrates how to train an image classification models with Keras and TFLite m
 - [Notebook](https://github.com/Snapchat/snapml-templates/blob/main/Quantization%20With%20TFLite/classification_and_quantization_with_tflite.ipynb)
 - [Template Guide](https://docs.snap.com/lens-studio/references/templates/ml/multi-class-classification)
 
+## SnapAR Global Lensathon - SnapML Workshop
+Walkthrough how to train your own image classifier from scratch and preparing it for deployment into SnapML and Lens Studio.
+
+- [Notebook](https://github.com/Snapchat/snapml-templates/blob/9a2b3b6e4aaa93e3a8d39f0322fdcc0a3e4fe622/SnapAR%20Global%20Lensathon%20-%20SnapML%20Workshop/%5BSnap_AR_Lensathon%5D_SnapML_Image_Classification_Tutorial.ipynb)
+
 ## License
 A license file is included with each folder project. The full license can be found here: https://lensstudio.snapchat.com/template-license
