@@ -71,7 +71,7 @@ Demonstrates how to train an image classification models with Keras and TFLite m
 - [Template Guide](https://docs.snap.com/lens-studio/references/templates/ml/multi-class-classification)
 
 ## SnapAR Global Lensathon - SnapML Workshop
-Walkthrough how to train your own image classifier from scratch and preparing it for deployment into SnapML and Lens Studio.
+Educational walkthrough of how to train your own image classifier from scratch and making it SnapML compatible. This is intended for educational purposes only. Please review relevant dataset licenses prior to usage.
 
 - [Notebook](https://github.com/Snapchat/snapml-templates/blob/9a2b3b6e4aaa93e3a8d39f0322fdcc0a3e4fe622/SnapAR%20Global%20Lensathon%20-%20SnapML%20Workshop/%5BSnap_AR_Lensathon%5D_SnapML_Image_Classification_Tutorial.ipynb)
 
