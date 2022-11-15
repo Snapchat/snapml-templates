@@ -70,6 +70,12 @@ Demonstrates how to train an image classification models with Keras and TFLite m
 - [Notebook](https://github.com/Snapchat/snapml-templates/blob/main/Quantization%20With%20TFLite/classification_and_quantization_with_tflite.ipynb)
 - [Template Guide](https://docs.snap.com/lens-studio/references/templates/ml/multi-class-classification)
 
+## Multi-Object Detection
+Demonstrates how to train an multi-objection detection model using custom datasets annotated by ourselves with a step-by-step example on detecting different kinds of berries.
+
+- [Notebook](https://github.com/Snapchat/snapml-templates/blob/main/Multi-Object%20Detection/Multi-Object%20Detection.ipynb)
+- [Template Guide](https://user-images.githubusercontent.com/81824886/201994004-982822bc-2b06-43fe-a227-a18538545d43.gif)
+
 ## SnapAR Global Lensathon - SnapML Workshop
 Educational walkthrough of how to train your own image classifier from scratch and making it SnapML compatible. This is intended for educational purposes only. Please review relevant dataset licenses prior to usage.
 
