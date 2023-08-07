@@ -84,5 +84,15 @@ Educational walkthrough of how to train your own image classifier from scratch a
 
 - [Notebook](https://github.com/Snapchat/snapml-templates/blob/9a2b3b6e4aaa93e3a8d39f0322fdcc0a3e4fe622/SnapAR%20Global%20Lensathon%20-%20SnapML%20Workshop/%5BSnap_AR_Lensathon%5D_SnapML_Image_Classification_Tutorial.ipynb)
 
+## Optical Character Recognition
+Through Snap’s partnership with OpenCV, we are bringing to you a training notebook that allows you to train ML Models that can be later brought into Lens Studio and used to recognize text in the camera view.
+
+<img src="https://github.com/Snapchat/snapml-templates/assets/84346153/980cecdb-24e8-4abd-897e-288ac39517e6.gif" width="200">
+
+
+- [Inference Notebook](https://github.com/Snapchat/snapml-templates/blob/main/Optical%20Character%20Recognition/Optical%20Character%20Recognition%20-%20ONNX%20Inference.ipynb)
+- [Training Notebook](https://github.com/Snapchat/snapml-templates/blob/main/Optical%20Character%20Recognition/Optical%20Character%20Recognition%20-%20OCR%20Training.ipynb) (optional)
+- [Template Guide](https://docs.snap.com/lens-studio/references/templates/ml/optical-character-recognition)
+
 ## License
 A license file is included with each folder project. The full license can be found here: https://lensstudio.snapchat.com/template-license
