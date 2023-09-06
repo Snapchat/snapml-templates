@@ -4,15 +4,18 @@
 
 
 ## Overview
-In the previous tutrial, we have learned how to build the entire pipeline from model training to Snapchat lens creation with the provided dataset. In this guide, we will see how to capture and process your own object-centric dataset for the rendering pipeline.
+In the previous tutorial, we learned how to build the entire pipeline from model training to Snapchat Lens creation with the provided dataset. In this guide, we will see how to capture and process your own object-centric dataset for the rendering pipeline.
 
 ## Data Collection
 For better visualization, we will use the [horizontal coordinate system](https://en.wikipedia.org/wiki/Horizontal_coordinate_system) as an example: think of the object you would like to render as the “Observer” and your camera as the “Star”. “Horizon” is the ground.
 
 Follow the step below to collect your own data:
-*   Place the object you would like to render in the center of the sphere(Observer in the picture)
-*   Place your camera on the position of “Star” where “Altitude” is 0. Then walk round the object and take pictures(the more, the better)
-*   Along the “Meridian”, repeat the above process for all “Altitude” until reaching the “Zenith”
+
+*   Place the object you would like to render in the center of the sphere (Observer in the picture).
+
+*   Place your camera in the position of “Star” where “Altitude” is 0. Then walk round the object and take pictures (the more, the better).
+
+*   Along the “Meridian”, repeat the above process for all “Altitude” until reaching the “Zenith”.
 
 
 <div align="center">
@@ -21,18 +24,18 @@ Follow the step below to collect your own data:
 
 <!-- >   <img width="50%" align="center" >
 >  -->
-Your data should be saved in `MobileR2L/dataset/your-own-dataset/scene-name/*.png(jepg)`. For example, the path could look like `MobileR2L/dataset/custom_dataset/shoe/*.png(jpeg)`
+Your data should be saved in `MobileR2L/dataset/your-own-dataset/scene-name/*.png(jpeg)`. For example, the path could look like `MobileR2L/dataset/custom_dataset/shoe/*.png(jpeg)`
 
 Common Issues of User-collected Data
-* *Inconsistent Lighting*: the NeRF model is sensitive to the lighting. Do your best to keep the lighting uniform for all images.
+* *Inconsistent Lighting*: the NeRF model is sensitive to lighting. Do your best to keep the lighting uniform for all images.
 * *Non-uniform Radius*: the best practice is to make sure your camera always lies on the “Meridian”
 * *Missing Views*: make sure to take overlapping images when walking round the object.
-* *Blurry images*: try to hold your phone steady when taking the pictures
+* *Blurry images*: try to hold your phone steady when taking pictures
 
 
 ## Pose Estimation
 
-Once you have your data collected, several scripts need to run to estimate the pose. Note: you may want to downsize your data proportionally to the height/width at most 1008 pixel. Otherwise the pose estimation will be very slow. Moreover, try to make the dimensions be divisible by 12. The training code assume the height/width is divisible by 12. 
+Once you have your data collected, several scripts need to run to estimate the pose. Note: you may want to downsize your data proportionally to the height/width at most 1008 pixels. Otherwise, the pose estimation will be very slow. Moreover, try to make the dimensions be divisible by 12. The training code assumes the height/width is divisible by 12. 
 
 
 1.   Install [COLMAP](https://colmap.github.io/install.html)
@@ -97,18 +100,18 @@ You should see `poses_bounds.npy`(used in student model).
 
 **Note**:
 
-* COLMAP has a GUI version. You could visualize the reconstruction by
+* COLMAP has a GUI version. You can visualize the reconstruction by
 Open File → Import model 
 Find the “sparse” folder in your pose directory and open it
-* You could make use of the masks(if available) during the reconstruction. Make sure to rename the masks as xxx.png.png. Otherwise, the COLMAL will ignore it silently.
+* You could make use of the masks (if available) during the reconstruction. Make sure to rename the masks as xxx.png.png. Otherwise, the COLMAL will ignore it silently.
 
-> Visulizaition of COLMAP pose estimation. Red boxes are cameras.
+> Visualization of COLMAP pose estimation. Red boxes are cameras.
 > <div align="center">
 >    <a><img src="https://hackmd.io/_uploads/Hyl0r3Ka2.png"  width="500px" ></a>
 > </div>
 
 ## Model Training
-Now, under your dataset folder, you should have
+Now, in your dataset folder, you should have
 - [x] `images` folder
 - [x] `sparse` folder
 - [x]  `poses_bounds.npy`
@@ -128,10 +131,10 @@ python3 train.py \
 
 Note: 
 
-1. you need to tune the `scale` to make the teacher work well. Try to start with a bigger number such as 60, then reduce it graduatlly. 
-2. `downscale` should be set to 1.0 if the image resolution is aready small
+1. You need to tune the `scale` to make the teacher work well. Try to start with a bigger number, such as 60, then reduce it gradually. 
+2. `downscale` should be set to 1.0 if the image resolution is already small.
 3. `ff` should be set to False for object-centric scenes.
-4. When distilling the pseduo data, you can adujst `sr_downscale` based on your own needs. The default is 12. It would be easier if your dataset resolution is divisible by 12.
+4. When distilling the pseduo-data, you can adujst `sr_downscale` based on your own needs. The default is 12. It would be easier if your dataset resolution is divisible by 12.
 > 
 > ```
 > export ROOT_DIR=../../../dataset/your-own-data
@@ -199,8 +202,8 @@ The process of deploying your own NeRF model is very simple: you only need to im
 
 
 3. Swap the ONNX in `ML Conponent`
-    a. there are three `ML Conponent`: 1st is for `*_SnapGELU.onnx`, 2nd is for `Embedder.onnx` and 3rd is for `Sampler.onnx`.
-    b. drag the ONNX to the `Model` under the `Inspector` on the right pannel of Lens Studio.
+    a. There are three `ML Conponent`: 1st is for `*_SnapGELU.onnx`, 2nd is for `Embedder.onnx` and 3rd is for `Sampler.onnx`.
+    b. Drag the ONNX to the `Model` under the `Inspector` on the right pannel of Lens Studio.
 
 
 
@@ -213,14 +216,14 @@ The process of deploying your own NeRF model is very simple: you only need to im
 4. Go to  **Resources→ Script** on the left panel. Modify the model parameters you used in your model. The parameters can be found in your experiment: `logs/Experiments/your-experiments-folder/intrinsics.json`
 
 >
-> Chnage `H`, `W`, `RADIUS`, `NEAR`, `FAR`, `focal` accordingly. 
+> Change `H`, `W`, `RADIUS`, `NEAR`, `FAR`, `focal` accordingly. 
 > <div align="center">
 >    <a><img src="https://hackmd.io/_uploads/SyFdMwpa3.png"  width="500px" ></a>
 > </div>
 > 
 
 
-5. Save the **script**. You should see your rendered images on the **Preview** panel
+5. Save the **script**. You should see your rendered images in the **Preview** panel
 
 
 
