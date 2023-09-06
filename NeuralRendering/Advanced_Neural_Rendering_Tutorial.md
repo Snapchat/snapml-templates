@@ -184,7 +184,7 @@ Once the model is trained, you should have the ONNX files ready:
 
 The process of deploying your own NeRF model is very simple: you only need to import the three ONNX files above to the studio. We will show you how to do it step by step.
 
-1. download the lens project [here](https://drive.google.com/file/d/1GpbLVZ4n0HMk72im4dK4EgrjygVADTHN/view?usp=drive_link)
+1. download the lens project [here](https://drive.google.com/file/d/146EsDpTHLxdOC1V6rRo4Xe-u7fbWze_O/view?usp=drive_link)
 2.  Import ONNX files to Lens Studio(Drag it into Studio)
         a.  for the *_SnapGELU.onnx, change the Scale of Channel 0 - 3 to 255
 > Scale the Channel to 255.0
