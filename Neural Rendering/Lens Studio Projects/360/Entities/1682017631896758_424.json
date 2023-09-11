@@ -1,7 +1,7 @@
 {
     "1682017631896758:424": {
         "IResourceController": {
-            "name": "Script",
+            "name": "MLController",
             "type": 4,
             "subtype": 0,
             "dependency": 0,
@@ -9,7 +9,7 @@
             "uid": "1657060301649990:2546",
             "fileId": "1682017631896776:466",
             "publicId": "1682017631896876:526",
-            "expected_hash": "6324940205d4ceeb31318ab2ea125e4d"
+            "expected_hash": "89989fdd49cd08b99560d0e6396e3d1e"
         },
         "IResourceManager": {
             "uid": "1657060301649990:2546",
@@ -25,8 +25,8 @@
     "1682017631896876:526": {
         "IResourceController": {
             "public": {
-                "path": "Script.js",
-                "hash": "6324940205d4ceeb31318ab2ea125e4d"
+                "path": "MLController.js",
+                "hash": "89989fdd49cd08b99560d0e6396e3d1e"
             }
         }
     }

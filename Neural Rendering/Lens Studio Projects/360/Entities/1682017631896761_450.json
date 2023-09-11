@@ -704,7 +704,7 @@
     "1682017631896881:545": {
         "IResourceController": {
             "public": {
-                "path": "Sampler.onnx",
+                "path": "ML Models/Sampler.onnx",
                 "hash": "0c500d4b19586f369044e2b9a8851aa1"
             }
         }

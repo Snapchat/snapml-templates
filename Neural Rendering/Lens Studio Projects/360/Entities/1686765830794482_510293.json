@@ -2,7 +2,7 @@
     "1686765825717284:510291": {
         "IResourceController": {
             "public": {
-                "path": "models_nerf_gelu_snap/GeluSnap__Hotdog.onnx",
+                "path": "ML Models/NERF/GeluSnap__Hotdog.onnx",
                 "hash": "b7ee560976affbbd6af2cb189d7c7d6c"
             }
         }

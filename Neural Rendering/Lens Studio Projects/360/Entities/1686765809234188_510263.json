@@ -2,7 +2,7 @@
     "1686765802982953:510261": {
         "IResourceController": {
             "public": {
-                "path": "models_nerf_gelu_snap/GeluSnap__Lego.onnx",
+                "path": "ML Models/NERF/GeluSnap__Lego.onnx",
                 "hash": "4940b4d5a7b3be07d306ffa478a5774b"
             }
         }

@@ -12,14 +12,14 @@
     "public_api_user_data_access": "unrestricted",
     "studioVersion": {
         "createdWith": {
-            "type": "Internal",
+            "type": "Public",
             "major": "4",
             "minor": "25",
             "patch": "0",
             "build": "0"
         },
         "lastSavedWith": {
-            "type": "Internal",
+            "type": "Public",
             "major": "4",
             "minor": "40",
             "patch": "1",
@@ -178,7 +178,6 @@
                 "unrecognizedMaterials": ""
             }
         },
-        "InspectorComponent": "",
         "LayerComponent": {
             "nextLayerId": "3",
             "showOrthographicLayer": "false",

@@ -1,0 +1,24 @@
+{
+    "1694466381674797:19595": {
+        "IResourceController": {
+            "name": "ML Models",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1694466381675030:19596",
+            "resources": [
+                "1682017631896761:449",
+                "1682017631896761:450",
+                "1686765765247626:509672"
+            ]
+        }
+    },
+    "1694466381675030:19596": {
+        "IResourceController": {
+            "public": {
+                "path": "ML Models"
+            }
+        }
+    }
+}

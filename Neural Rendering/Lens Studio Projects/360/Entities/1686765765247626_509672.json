@@ -2,14 +2,14 @@
     "1686765764956147:509671": {
         "IResourceController": {
             "public": {
-                "path": "models_nerf_gelu_snap",
+                "path": "ML Models/NERF",
                 "hash": "57f7d1e40f87cc4b7ddd4ff7d0065361"
             }
         }
     },
     "1686765765247626:509672": {
         "IResourceController": {
-            "name": "models_nerf_gelu_snap",
+            "name": "NERF",
             "type": 0,
             "subtype": -1,
             "dependency": 0,

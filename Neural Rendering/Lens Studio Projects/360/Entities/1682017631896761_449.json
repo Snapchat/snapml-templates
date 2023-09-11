@@ -228,7 +228,7 @@
     "1682017631896880:544": {
         "IResourceController": {
             "public": {
-                "path": "Embedder.onnx",
+                "path": "ML Models/Embedder.onnx",
                 "hash": "6d48e4ff33e31ea2d0722be7f820c7bb"
             }
         }

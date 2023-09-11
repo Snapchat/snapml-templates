@@ -1,7 +1,7 @@
 {
     "1682017631896760:439": {
         "IResourceController": {
-            "name": "BackgroundRemoval 2",
+            "name": "BackgroundRemoval",
             "type": 2,
             "subtype": 1,
             "dependency": 0,
@@ -10,7 +10,7 @@
             "fileId": "1682017631896812:493",
             "originalId": "1682017631896813:494",
             "publicId": "1682017631896880:543",
-            "expected_hash": "c6d72c50faebf40bdfe4000c0313f94e"
+            "expected_hash": "3a799be70f93e9bc34c7ad0365b8d290"
         },
         "IResourceManager": {
             "uid": "1662678268582077:1941",
@@ -31,8 +31,8 @@
     "1682017631896880:543": {
         "IResourceController": {
             "public": {
-                "path": "BackgroundRemoval 2.lsmat",
-                "hash": "dcfa585f9c439c40f9fd74bed3200a0d"
+                "path": "Materials/BackgroundRemoval.lsmat",
+                "hash": "4e2308f1fdc8d8b0d3e734cf8c188a70"
             }
         }
     }

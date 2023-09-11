@@ -2,7 +2,7 @@
     "1686765765248750:509673": {
         "IResourceController": {
             "public": {
-                "path": "models_nerf_gelu_snap/GeluSnap__Chair.onnx",
+                "path": "ML Models/NERF/GeluSnap__Chair.onnx",
                 "hash": "52dead20319a01c004d4ced1441c2c9b"
             }
         }
