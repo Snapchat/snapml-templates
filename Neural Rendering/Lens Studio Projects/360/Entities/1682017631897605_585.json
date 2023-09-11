@@ -1,0 +1,23 @@
+{
+    "1682017631896879:538": {
+        "IResourceController": {
+            "public": {
+                "path": "Temp"
+            }
+        }
+    },
+    "1682017631897605:585": {
+        "IResourceController": {
+            "name": "Temp",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1682017631896879:538",
+            "resources": [
+                "1682017631896759:430",
+                "1682017631897605:584"
+            ]
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "privateAssets": {
+        "1657755571284165:45622": {
+            "isLazyAsset": false,
+            "uid": "1657755571284165:45622",
+            "type": "Asset.Texture",
+            "name": "Textures/Image.png",
+            "provider": {
+                "type": "Provider.FileTextureProvider",
+                "hash": 10906871756916745997,
+                "useCache": true,
+                "allowDownscale": false,
+                "fileinfo": {
+                    "path": "Files/File_1682017631896783_471.pvr",
+                    "location": 0
+                },
+                "filename": "Files/File_1682017631896783_471.pvr",
+                "fileLocation": 0
+            }
+        }
+    }
+}

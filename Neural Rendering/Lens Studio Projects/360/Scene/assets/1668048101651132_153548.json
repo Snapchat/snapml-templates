@@ -1,0 +1,20 @@
+{
+    "core": {
+        "isLazyAsset": false,
+        "uid": "1668048101651132:153548",
+        "type": "Asset.Texture",
+        "name": "Textures/Image.png",
+        "provider": {
+            "type": "Provider.FileTextureProvider",
+            "hash": 9665533477287714783,
+            "useCache": true,
+            "allowDownscale": false,
+            "fileinfo": {
+                "path": "system/materials/textures/emptySprite.png",
+                "location": 0
+            },
+            "filename": "system/materials/textures/emptySprite.png",
+            "fileLocation": 0
+        }
+    }
+}

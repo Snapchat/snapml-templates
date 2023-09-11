@@ -1,0 +1,46 @@
+{
+    "privateAssets": {
+        "1686765802697901:510254": {
+            "isLazyAsset": false,
+            "uid": "1686765802697901:510254",
+            "type": "Asset.MLAsset",
+            "name": "models_nerf_gelu_snap/GeluSnap__Drums.onnx",
+            "provider": {
+                "type": "Provider.BinFileProvider",
+                "filename": "Files/File_1686765802696535_510252.dnn",
+                "fileinfo": {
+                    "path": "Files/File_1686765802696535_510252.dnn",
+                    "location": 0
+                }
+            },
+            "inputs": [
+                {
+                    "input": {
+                        "name": "input",
+                        "shape": [
+                            100.0,
+                            100.0,
+                            312.0
+                        ],
+                        "texture": "-1:-1"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "output": {
+                        "name": "output",
+                        "shape": [
+                            800.0,
+                            800.0,
+                            3.0
+                        ],
+                        "texture": "-1:-1",
+                        "transformer0": "-1:-1",
+                        "outputMode": 0
+                    }
+                }
+            ]
+        }
+    }
+}

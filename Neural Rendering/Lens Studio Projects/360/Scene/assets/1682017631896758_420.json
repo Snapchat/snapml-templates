@@ -1,0 +1,13 @@
+{
+    "privateAssets": {
+        "2:2": {
+            "isLazyAsset": false,
+            "uid": "2:2",
+            "type": "Asset.Texture",
+            "name": "Device Camera Texture",
+            "provider": {
+                "type": "Provider.CameraTextureProvider"
+            }
+        }
+    }
+}

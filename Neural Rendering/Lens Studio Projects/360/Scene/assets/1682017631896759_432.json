@@ -1,0 +1,22 @@
+{
+    "privateAssets": {
+        "1658351033714711:307403": {
+            "isLazyAsset": false,
+            "uid": "1658351033714711:307403",
+            "type": "Asset.ScriptAsset",
+            "name": "Text Logger Resources/Scripts/ExampleScript.js",
+            "publicName": "Text Logger Resources/Scripts/ExampleScript.js",
+            "hash": 1784878415783888502,
+            "provider": {
+                "type": "Provider.FileScriptProvider",
+                "fileinfo": {
+                    "path": "Files/File_1682017631896801_485.js",
+                    "location": 0
+                },
+                "filename": "Files/File_1682017631896801_485.js"
+            },
+            "staticInputs": null,
+            "automodules": null
+        }
+    }
+}

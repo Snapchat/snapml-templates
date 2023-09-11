@@ -1,0 +1,13 @@
+{
+    "privateAssets": {
+        "1668045933868823:2140": {
+            "isLazyAsset": false,
+            "uid": "1668045933868823:2140",
+            "type": "Asset.Texture",
+            "name": "Textures/rgb Proxy Texture 5",
+            "provider": {
+                "type": "Provider.ProxyTextureProvider"
+            }
+        }
+    }
+}

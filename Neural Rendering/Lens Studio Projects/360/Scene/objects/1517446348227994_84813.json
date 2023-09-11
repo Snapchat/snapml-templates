@@ -1,0 +1,26 @@
+{
+    "core": {
+        "uid": "1517446348227994:84813",
+        "type": "SceneObject",
+        "layerV2": 1,
+        "name": "Lighting",
+        "position": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "scale": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "segmentScaleCompensate": false,
+        "isuserenabled": true
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "privateAssets": {
+        "1662678268540558:1927": {
+            "isLazyAsset": false,
+            "uid": "1662678268540558:1927",
+            "type": "Asset.Texture",
+            "name": "Textures/White.png",
+            "provider": {
+                "type": "Provider.FileTextureProvider",
+                "hash": 17453106253980444570,
+                "useCache": true,
+                "allowDownscale": false,
+                "fileinfo": {
+                    "path": "Files/File_1682017631896809_491.png",
+                    "location": 0
+                },
+                "filename": "Files/File_1682017631896809_491.png",
+                "fileLocation": 0
+            }
+        }
+    }
+}

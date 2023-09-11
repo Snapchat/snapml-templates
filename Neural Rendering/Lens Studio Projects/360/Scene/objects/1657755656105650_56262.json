@@ -1,0 +1,74 @@
+{
+    "core": {
+        "uid": "1657755656105650:56262",
+        "type": "SceneObject",
+        "layerV2": 1,
+        "name": "ML Component",
+        "position": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "scale": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "segmentScaleCompensate": false,
+        "isuserenabled": true,
+        "components": [
+            {
+                "uid": "1657755656105860:56263",
+                "type": "Component.MLComponent",
+                "name": "ML Component",
+                "isenabled": true,
+                "isInternal": false,
+                "updatepriority": 0,
+                "renderOrder": 1,
+                "secondaryRenderOrder": 0,
+                "model": "1686765830794508:510294",
+                "asyncLoad": true,
+                "inferenceMode": {
+                    "value": 3,
+                    "description": "Auto"
+                },
+                "inputs": [
+                    {
+                        "input": {
+                            "name": "input",
+                            "shape": [
+                                100.0,
+                                100.0,
+                                312.0
+                            ],
+                            "texture": "-1:-1"
+                        }
+                    }
+                ],
+                "outputs": [
+                    {
+                        "output": {
+                            "name": "output",
+                            "shape": [
+                                800.0,
+                                800.0,
+                                3.0
+                            ],
+                            "texture": "1691775759710125:3116812",
+                            "transformer0": "-1:-1",
+                            "outputMode": 1
+                        }
+                    }
+                ],
+                "autoBuild": true,
+                "autoRun": true
+            }
+        ]
+    }
+}

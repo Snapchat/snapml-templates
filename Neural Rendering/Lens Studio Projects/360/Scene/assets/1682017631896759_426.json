@@ -1,0 +1,46 @@
+{
+    "privateAssets": {
+        "1657215563315138:2369": {
+            "isLazyAsset": false,
+            "uid": "1657215563315138:2369",
+            "type": "Asset.MLAsset",
+            "name": "Temp/ML Model/w256_d20_hw192_s3m3_cConv_bn.onnx",
+            "provider": {
+                "type": "Provider.BinFileProvider",
+                "filename": "Files/File_1682017631896779_468.dnn",
+                "fileinfo": {
+                    "path": "Files/File_1682017631896779_468.dnn",
+                    "location": 0
+                }
+            },
+            "inputs": [
+                {
+                    "input": {
+                        "name": "input",
+                        "shape": [
+                            192.0,
+                            192.0,
+                            63.0
+                        ],
+                        "texture": "-1:-1"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "output": {
+                        "name": "output",
+                        "shape": [
+                            192.0,
+                            192.0,
+                            3.0
+                        ],
+                        "texture": "-1:-1",
+                        "transformer0": "-1:-1",
+                        "outputMode": 0
+                    }
+                }
+            ]
+        }
+    }
+}

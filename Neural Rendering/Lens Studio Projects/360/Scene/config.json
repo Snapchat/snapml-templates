@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "core_version": 195,
+    "lifecycleMode": {
+        "value": 0,
+        "description": "legacy"
+    },
+    "faceStretchBatchingStrategy": {
+        "value": 0,
+        "description": "EqualRenderOrders"
+    },
+    "faceStretchAlgorithm": {
+        "value": 0,
+        "description": "OldStretchAlgorithm"
+    },
+    "renderTargetStrategy": {
+        "value": 1,
+        "description": "RenderTargetInCamera"
+    },
+    "equalCameraOrderStrategy": {
+        "value": 0,
+        "description": "ByCameraOrder"
+    },
+    "renderOutput": "1:1",
+    "previewOutput": "-1:-1",
+    "overlayOutput": "-1:-1",
+    "logstreamingsystem": {
+        "mobileStudioLogStreamingExperienceId": ""
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "privateAssets": {
+        "1691775759710125:3116812": {
+            "isLazyAsset": false,
+            "uid": "1691775759710125:3116812",
+            "type": "Asset.Texture",
+            "name": "output Proxy Texture",
+            "provider": {
+                "type": "Provider.ProxyTextureProvider"
+            }
+        }
+    }
+}

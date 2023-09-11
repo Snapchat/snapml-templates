@@ -1,0 +1,33 @@
+{
+    "1682017631896759:432": {
+        "IResourceController": {
+            "name": "ExampleScript",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1658351033714711:307403",
+            "fileId": "1682017631896801:485",
+            "publicId": "1682017631896879:537",
+            "expected_hash": "ca9e78df9efe5d476b19ad7f992fb3c1"
+        },
+        "IResourceManager": {
+            "uid": "1658351033714711:307403",
+            "name": "Files/File_1682017631896801_485.js",
+            "flags": 1
+        }
+    },
+    "1682017631896801:485": {
+        "IFileManager": {
+            "path": "Files/File_1682017631896801_485.js"
+        }
+    },
+    "1682017631896879:537": {
+        "IResourceController": {
+            "public": {
+                "path": "Text Logger Resources/Scripts/ExampleScript.js",
+                "hash": "ca9e78df9efe5d476b19ad7f992fb3c1"
+            }
+        }
+    }
+}

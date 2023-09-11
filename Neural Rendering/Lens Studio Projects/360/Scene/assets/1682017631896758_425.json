@@ -1,0 +1,18 @@
+{
+    "privateAssets": {
+        "1657215557026057:776": {
+            "isLazyAsset": false,
+            "uid": "1657215557026057:776",
+            "type": "Asset.BinAsset",
+            "name": "pose.json",
+            "provider": {
+                "type": "Provider.BinFileProvider",
+                "filename": "Files/File_1682017631896777_467.json",
+                "fileinfo": {
+                    "path": "Files/File_1682017631896777_467.json",
+                    "location": 0
+                }
+            }
+        }
+    }
+}

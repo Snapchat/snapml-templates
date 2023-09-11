@@ -1,0 +1,24 @@
+{
+    "1682017631896879:539": {
+        "IResourceController": {
+            "public": {
+                "path": "Temp/ML Model"
+            }
+        }
+    },
+    "1682017631897605:584": {
+        "IResourceController": {
+            "name": "ML Model",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1682017631896879:539",
+            "resources": [
+                "1682017631896759:428",
+                "1682017631896759:429",
+                "1682017631896759:426"
+            ]
+        }
+    }
+}

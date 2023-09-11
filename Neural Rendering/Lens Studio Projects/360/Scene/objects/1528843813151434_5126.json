@@ -1,0 +1,89 @@
+{
+    "core": {
+        "uid": "1528843813151434:5126",
+        "type": "SceneObject",
+        "layerV2": 1,
+        "name": "Envmap",
+        "position": [
+            0.0,
+            65.0,
+            0.0
+        ],
+        "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "scale": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "segmentScaleCompensate": false,
+        "isuserenabled": true,
+        "components": [
+            {
+                "uid": "1528843813151473:5129",
+                "type": "Component.LightSource",
+                "name": "Light source",
+                "isenabled": true,
+                "isInternal": false,
+                "updatepriority": 0,
+                "version": 2,
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "lighttype": {
+                    "value": 6,
+                    "description": "Envmap"
+                },
+                "decaytype": {
+                    "value": 1,
+                    "description": "Linear"
+                },
+                "intensity": 0.0,
+                "innerConeAngle": 0.0,
+                "outerConeAngle": 45.0,
+                "falloffEndDistance": 1.0,
+                "falloffEnabled": false,
+                "castsShadows": false,
+                "shadowColor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "shadowDensity": 1.0,
+                "shadowBlurRadius": 4.0,
+                "shadowTextureSize": 512,
+                "autoLightSourcePosition": true,
+                "autoShadowFrustumSize": true,
+                "autoShadowFrustumSizeExtend": 2.0,
+                "shadowFrustumSize": 100.0,
+                "shadowFrustumNearClipPlane": 1.0,
+                "shadowFrustumFarClipPlane": 1000.0,
+                "useEstimation": false,
+                "estimationIntensity": 1.0,
+                "useEnvFromCamera": false,
+                "envFromCamMode": {
+                    "value": 0,
+                    "description": "Auto"
+                },
+                "useEnvmap": true,
+                "envmapExposure": 1.0,
+                "envmapRotation": 0.0,
+                "lightEstimationIntensity": 1.0,
+                "lightEstimationSharpness": 1.0,
+                "diffuseEnvTexture": "1588296316843646:534374",
+                "specularEnvTexture": "1588296316857901:534385",
+                "dynamicEnvInputTexture": "-1:-1",
+                "estimationModel": "-1:-1",
+                "lightEstimationCustomModel": "-1:-1",
+                "layerV2": 4294967295
+            }
+        ]
+    }
+}

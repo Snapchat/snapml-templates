@@ -1,0 +1,13 @@
+{
+    "privateAssets": {
+        "1668045933869617:2148": {
+            "isLazyAsset": false,
+            "uid": "1668045933869617:2148",
+            "type": "Asset.Texture",
+            "name": "Textures/mask Proxy Texture 3",
+            "provider": {
+                "type": "Provider.ProxyTextureProvider"
+            }
+        }
+    }
+}

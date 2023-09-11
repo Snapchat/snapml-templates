@@ -1,0 +1,46 @@
+{
+    "privateAssets": {
+        "1686765795594319:510244": {
+            "isLazyAsset": false,
+            "uid": "1686765795594319:510244",
+            "type": "Asset.MLAsset",
+            "name": "models_nerf_gelu_snap/GeluSnap__Ficus.onnx",
+            "provider": {
+                "type": "Provider.BinFileProvider",
+                "filename": "Files/File_1686765795592434_510242.dnn",
+                "fileinfo": {
+                    "path": "Files/File_1686765795592434_510242.dnn",
+                    "location": 0
+                }
+            },
+            "inputs": [
+                {
+                    "input": {
+                        "name": "input",
+                        "shape": [
+                            100.0,
+                            100.0,
+                            312.0
+                        ],
+                        "texture": "-1:-1"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "output": {
+                        "name": "output",
+                        "shape": [
+                            800.0,
+                            800.0,
+                            3.0
+                        ],
+                        "texture": "-1:-1",
+                        "transformer0": "-1:-1",
+                        "outputMode": 0
+                    }
+                }
+            ]
+        }
+    }
+}

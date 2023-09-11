@@ -1,0 +1,3975 @@
+{
+    "1686765802982953:510261": {
+        "IResourceController": {
+            "public": {
+                "path": "models_nerf_gelu_snap/GeluSnap__Lego.onnx",
+                "hash": "4940b4d5a7b3be07d306ffa478a5774b"
+            }
+        }
+    },
+    "1686765809231251:510262": {
+        "IFileManager": {
+            "path": "Files/File_1686765809231251_510262.dnn"
+        }
+    },
+    "1686765809234188:510263": {
+        "IResourceController": {
+            "name": "GeluSnap__Lego",
+            "type": 22,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1686765809234201:510264",
+            "fileId": "1686765809231251:510262",
+            "originalId": "1686765809258982:510269",
+            "publicId": "1686765802982953:510261",
+            "expected_hash": "495152b4e3b2b4b531a3594ba034e07d",
+            "additional": {
+                "Inputs": [
+                    {
+                        "k": "input",
+                        "v": {
+                            "transformParams": ""
+                        }
+                    }
+                ],
+                "Outputs": [
+                    {
+                        "k": "output",
+                        "v": {
+                            "inputs": ""
+                        }
+                    }
+                ],
+                "compatibility_data": [
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "501",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "502",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "719",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "505",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "722",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "508",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "725",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "511",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "728",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "514",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "731",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "517",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "734",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "520",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "737",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "523",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "740",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "526",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "743",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "529",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "746",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "532",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "749",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "535",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "752",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "538",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "755",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "541",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "758",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "544",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "761",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "547",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "764",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "550",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "767",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "553",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "770",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "556",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "773",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "559",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "776",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "562",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "779",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "565",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "782",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "568",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "785",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "571",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "788",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "574",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "791",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "577",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "794",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "580",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "797",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "583",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "800",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "586",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "803",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "589",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "806",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "592",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "809",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "595",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "812",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "598",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "815",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "601",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "818",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "604",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "821",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "607",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "824",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "610",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "827",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "613",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "830",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "616",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "833",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "619",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "836",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "622",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "839",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "625",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "842",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "628",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "845",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "631",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "848",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "634",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "851",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "637",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "854",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "640",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "857",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "643",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "860",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "646",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "863",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "649",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "866",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "652",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "869",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "655",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "872",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "658",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "875",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "661",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "878",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "664",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "881",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "667",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "884",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "670",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "887",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "673",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "890",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "676",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "677",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "678",
+                        "layerType": "deconv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "893",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "681",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "896",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "684",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "899",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "687",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "902",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "690",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "691",
+                        "layerType": "deconv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "905",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "694",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "908",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "697",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "911",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "700",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "914",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "703",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "704",
+                        "layerType": "deconv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "917",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "707",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "920",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "710",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "923",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "713",
+                        "layerType": "gelu"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "926",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "716",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "717",
+                        "layerType": "conv"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "output_normalization_fHn5j3o0",
+                        "layerType": "sigmoid"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "output",
+                        "layerType": "batchnorm"
+                    }
+                ],
+                "isCompressed": "false",
+                "normalization_data": {
+                    "input": {
+                        "bias": [
+                            "0"
+                        ],
+                        "scale": [
+                            "1"
+                        ]
+                    },
+                    "output": {
+                        "bias": [
+                            "0",
+                            "0",
+                            "0"
+                        ],
+                        "scale": [
+                            "255",
+                            "255",
+                            "255"
+                        ]
+                    }
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1686765809234201:510264",
+            "name": "Files/File_1686765809231251_510262.dnn",
+            "flags": 1
+        }
+    },
+    "1686765809234201:510264": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedSize": "8378323",
+                "extension": "dnn",
+                "originalSize": "8378323",
+                "settings": {
+                    "isCompressed": "false"
+                }
+            },
+            "uncompressed_file": "1686765809263984:510270"
+        }
+    },
+    "1686765809258982:510269": {
+        "IFileManager": {
+            "path": "Files/File_1686765809258982_510269.onnx"
+        }
+    },
+    "1686765809263984:510270": {
+        "IFileManager": {
+            "path": "Files/File_1686765809263984_510270.dnn"
+        }
+    }
+}

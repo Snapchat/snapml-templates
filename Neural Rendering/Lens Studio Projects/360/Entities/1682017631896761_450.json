@@ -1,0 +1,712 @@
+{
+    "1668049778028835:7044": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedSize": "29424",
+                "extension": "dnn",
+                "originalSize": "29424",
+                "settings": {
+                    "isCompressed": "false"
+                }
+            },
+            "uncompressed_file": "1682017631896821:500"
+        }
+    },
+    "1682017631896761:450": {
+        "IResourceController": {
+            "name": "Sampler",
+            "type": 22,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1668049778028835:7044",
+            "fileId": "1682017631896819:498",
+            "originalId": "1682017631896820:499",
+            "publicId": "1682017631896881:545",
+            "expected_hash": "8a468bf58a2504fb74114be4a4a31051",
+            "additional": {
+                "compatibility_data": [
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Mul_2",
+                        "layerType": "concat"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Mul_3",
+                        "layerType": "constant"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Transpose_4",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::ReduceSum_5",
+                        "layerType": "permute"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Reshape_6",
+                        "layerType": "reduce"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "inp_permute_f1nd1ngn3m0",
+                        "layerType": "permute"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "inp_reshape_f1nd1ngn3m0",
+                        "layerType": "reshape"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "inp",
+                        "layerType": "permute"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "inp.3",
+                        "layerType": "reshape"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "Only concat along channel is supported",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "inp.7",
+                        "layerType": "concat"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Concat_13_permute_f1nd1ngn3m0",
+                        "layerType": "permute"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Concat_13_reshape_f1nd1ngn3m0",
+                        "layerType": "reshape"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Concat_13",
+                        "layerType": "permute"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "Only concat along channel is supported",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Add_14",
+                        "layerType": "concat"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Concat_16_permute_f1nd1ngn3m0",
+                        "layerType": "permute"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Concat_16_reshape_f1nd1ngn3m0",
+                        "layerType": "reshape"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Concat_16",
+                        "layerType": "permute"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "Only concat along channel is supported",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Mul_17",
+                        "layerType": "concat"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Mul_18",
+                        "layerType": "constant"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Add_19",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Reshape_20",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "pts_permute_f1nd1ngn3m0",
+                        "layerType": "permute"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "pts_reshape_f1nd1ngn3m0",
+                        "layerType": "reshape"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "pts",
+                        "layerType": "permute"
+                    }
+                ],
+                "normalization_data": {
+                    "c2w13": {
+                        "bias": [
+                            "0"
+                        ],
+                        "scale": [
+                            "1"
+                        ]
+                    },
+                    "c2w33": {
+                        "bias": [
+                            "0"
+                        ],
+                        "scale": [
+                            "1"
+                        ]
+                    },
+                    "pts": {
+                        "bias": [
+                            "0"
+                        ],
+                        "scale": [
+                            "1"
+                        ]
+                    }
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1668049778028835:7044",
+            "name": "Files/File_1682017631896819_498.dnn",
+            "flags": 1
+        }
+    },
+    "1682017631896819:498": {
+        "IFileManager": {
+            "path": "Files/File_1682017631896819_498.dnn"
+        }
+    },
+    "1682017631896820:499": {
+        "IFileManager": {
+            "path": "Files/File_1682017631896820_499.onnx"
+        }
+    },
+    "1682017631896821:500": {
+        "IFileManager": {
+            "path": "Files/File_1682017631896821_500.dnn"
+        }
+    },
+    "1682017631896881:545": {
+        "IResourceController": {
+            "public": {
+                "path": "Sampler.onnx",
+                "hash": "0c500d4b19586f369044e2b9a8851aa1"
+            }
+        }
+    }
+}

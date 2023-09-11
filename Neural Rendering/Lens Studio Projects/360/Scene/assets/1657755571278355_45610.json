@@ -1,0 +1,149 @@
+{
+    "core": {
+        "isLazyAsset": false,
+        "uid": "1657755571278355:45610",
+        "type": "Asset.Material",
+        "name": "SpritePreset1.lsmat",
+        "passes": [
+            {
+                "type": "Asset.Pass",
+                "name": "/Resources/Resource8/uber.glsl",
+                "twosided": false,
+                "depthwrite": false,
+                "depthtest": false,
+                "colormask": [
+                    true,
+                    true,
+                    true,
+                    false
+                ],
+                "polygonoffset": [
+                    0.0,
+                    0.0
+                ],
+                "instancecount": 1,
+                "blendmode": {
+                    "value": 0,
+                    "description": "Normal"
+                },
+                "stencilState": {
+                    "enabled": false,
+                    "face": {
+                        "value": 0,
+                        "description": "FrontAndBack"
+                    },
+                    "stencilFailureOperation": {
+                        "value": 0,
+                        "description": "Keep"
+                    },
+                    "depthFailureOperation": {
+                        "value": 0,
+                        "description": "Keep"
+                    },
+                    "depthStencilPassOperation": {
+                        "value": 0,
+                        "description": "Keep"
+                    },
+                    "stencilCompareFunction": {
+                        "value": 0,
+                        "description": "Always"
+                    },
+                    "referenceValue": 0,
+                    "readMask": 255,
+                    "writeMask": 255
+                },
+                "cullmode": {
+                    "value": 1,
+                    "description": "Back"
+                },
+                "depthfunc": {
+                    "value": 3,
+                    "description": "LessEqual"
+                },
+                "frustumcullmode2": {
+                    "value": 0,
+                    "description": "Auto"
+                },
+                "positionmodified": false,
+                "frustumcullpad": 0.0,
+                "defines": [
+                    "ENABLE_BASE_TEX",
+                    "NODE_13_DROPLIST_ITEM 0",
+                    "NODE_27_DROPLIST_ITEM 0",
+                    "NODE_49_DROPLIST_ITEM 0",
+                    "NODE_69_DROPLIST_ITEM 0"
+                ],
+                "properties": [
+                    {
+                        "arraySize": 1,
+                        "name": "baseColor",
+                        "type": "vec4",
+                        "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    },
+                    {
+                        "arraySize": 1,
+                        "name": "mainColor",
+                        "type": "vec4",
+                        "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    },
+                    {
+                        "name": "baseTex",
+                        "type": "texture",
+                        "texturetype": {
+                            "value": 13,
+                            "description": "2D"
+                        },
+                        "value": "-1:-1",
+                        "filteringmode": {
+                            "value": 2,
+                            "description": "Trilinear"
+                        },
+                        "wrapmode": {
+                            "value": 1,
+                            "description": "Repeat"
+                        },
+                        "wrapmodeU": {
+                            "value": 1,
+                            "description": "Repeat"
+                        },
+                        "wrapmodeV": {
+                            "value": 1,
+                            "description": "Repeat"
+                        },
+                        "wrapmodeW": {
+                            "value": 1,
+                            "description": "Repeat"
+                        },
+                        "mipmaps": false,
+                        "bordercolor": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                ],
+                "provider": {
+                    "type": "Provider.FileShaderProvider",
+                    "hash": 5489349653281753338,
+                    "fileinfo": {
+                        "path": "/system//shaders/uber.glsl",
+                        "location": 0
+                    },
+                    "filename": "/system//shaders/uber.glsl",
+                    "fromBundle": false
+                }
+            }
+        ]
+    }
+}

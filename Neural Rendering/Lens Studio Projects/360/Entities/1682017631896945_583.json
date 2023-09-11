@@ -1,0 +1,22 @@
+{
+    "1682017631896878:534": {
+        "IResourceController": {
+            "public": {
+                "path": "Text Logger Resources"
+            }
+        }
+    },
+    "1682017631896945:583": {
+        "IResourceController": {
+            "name": "Text Logger Resources",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1682017631896878:534",
+            "resources": [
+                "1682017631896944:582"
+            ]
+        }
+    }
+}

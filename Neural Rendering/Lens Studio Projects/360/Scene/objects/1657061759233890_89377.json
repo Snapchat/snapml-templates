@@ -1,0 +1,78 @@
+{
+    "core": {
+        "uid": "1657061759233890:89377",
+        "type": "SceneObject",
+        "layerV2": 1,
+        "name": "ML Controller",
+        "position": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "scale": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "segmentScaleCompensate": false,
+        "isuserenabled": true,
+        "components": [
+            {
+                "uid": "1657061759234198:89378",
+                "type": "Component.ScriptComponent",
+                "name": "Script",
+                "isenabled": true,
+                "isInternal": false,
+                "updatepriority": -1000,
+                "valuesManager": {
+                    "values": [
+                        {
+                            "uid": "1661443758820795:292016",
+                            "type": "Value.BoolValue",
+                            "value": false
+                        }
+                    ]
+                },
+                "includes": null,
+                "scriptObjects": [
+                    {
+                        "name": "mlComponent",
+                        "typename": "Component.MLComponent",
+                        "scriptObject": "1657755656105860:56263"
+                    },
+                    {
+                        "name": "mlSinCos",
+                        "typename": "Component.MLComponent",
+                        "scriptObject": "1658270016606824:80968"
+                    },
+                    {
+                        "name": "mlSampler",
+                        "typename": "Component.MLComponent",
+                        "scriptObject": "1661303648697300:9507875"
+                    },
+                    {
+                        "name": "updateEachFrame",
+                        "typename": "Value.BoolValue",
+                        "scriptObject": "1661443758820795:292016"
+                    }
+                ],
+                "typeObjects": null,
+                "events": [
+                    {
+                        "event": {
+                            "eventType": "SceneEvent.OnAwakeEvent"
+                        },
+                        "script": "1657060301649990:2546"
+                    }
+                ],
+                "wrapInitializationSources": true
+            }
+        ]
+    }
+}
