@@ -89,10 +89,23 @@ Through Snap’s partnership with OpenCV, we are bringing to you a training note
 
 <img src="https://github.com/Snapchat/snapml-templates/assets/84346153/980cecdb-24e8-4abd-897e-288ac39517e6.gif" width="200">
 
-
 - [Inference Notebook](https://github.com/Snapchat/snapml-templates/blob/main/Optical%20Character%20Recognition/Optical%20Character%20Recognition%20-%20ONNX%20Inference.ipynb)
 - [Training Notebook](https://github.com/Snapchat/snapml-templates/blob/main/Optical%20Character%20Recognition/Optical%20Character%20Recognition%20-%20OCR%20Training.ipynb) (optional)
 - [Template Guide](https://docs.snap.com/lens-studio/references/templates/ml/optical-character-recognition)
+
+## Neural Rendering 
+This model we are providing simplifies the rendering of 3D assets and runs real-time on device on Snapchat. We are including a SnapML notebook with the training code so developers can train their own neural rendering models for any 3D asset they want to generate. The model enables building your own AR assets from 2D images taken on your phone, which are fully compatible with SnapML, and can be run on devices in real-time. We’ll also provide helpful guides that cover everything from training these models all the way to deploying the Lens. In 4.55 we are not providing a native LS template, however we are linking example LS projects that can be leveraged in our SnapML public Github repository. 
+
+<img src="https://github.com/Snapchat/snapml-templates/assets/84346153/f66d670a-734d-405e-a541-4cb456f67b9d" width="200">
+
+This is a state-of-the-art model based on a research paper from Snap’s Creative Vision Research team that was accepted into CVPR this year, one of the most important and major computer vision and ML conferences in the world, where we also presented a live demo. This model and template in Lens Studio showcases how Snap’s research becomes an applied project that any developer can use.
+
+- [Inference Notebook]()
+- [Guide]()
+- [Lens Studio Project]()
+
+
+
 
 ## License
 A license file is included with each folder project. The full license can be found here: https://lensstudio.snapchat.com/template-license
