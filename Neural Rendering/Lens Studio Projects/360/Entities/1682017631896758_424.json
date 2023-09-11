@@ -9,7 +9,7 @@
             "uid": "1657060301649990:2546",
             "fileId": "1682017631896776:466",
             "publicId": "1682017631896876:526",
-            "expected_hash": "89989fdd49cd08b99560d0e6396e3d1e"
+            "expected_hash": "f871094b553763ab89130233806a46f9"
         },
         "IResourceManager": {
             "uid": "1657060301649990:2546",
@@ -26,7 +26,7 @@
         "IResourceController": {
             "public": {
                 "path": "MLController.js",
-                "hash": "89989fdd49cd08b99560d0e6396e3d1e"
+                "hash": "f871094b553763ab89130233806a46f9"
             }
         }
     }

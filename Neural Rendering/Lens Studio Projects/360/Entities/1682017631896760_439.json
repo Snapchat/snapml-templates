@@ -10,7 +10,7 @@
             "fileId": "1682017631896812:493",
             "originalId": "1682017631896813:494",
             "publicId": "1682017631896880:543",
-            "expected_hash": "3a799be70f93e9bc34c7ad0365b8d290"
+            "expected_hash": "8204c0b0dcf7fb6439ff19039156f382"
         },
         "IResourceManager": {
             "uid": "1662678268582077:1941",
@@ -32,7 +32,7 @@
         "IResourceController": {
             "public": {
                 "path": "Materials/BackgroundRemoval.lsmat",
-                "hash": "4e2308f1fdc8d8b0d3e734cf8c188a70"
+                "hash": "a4c6cfb4d33446dd5cbfe057f5de41b6"
             }
         }
     }
