@@ -100,9 +100,9 @@ The template demonstrates how to render 3D assets real-time on device on Snapcha
 
 This is a state-of-the-art model based on a [research paper](https://snap-research.github.io/MobileR2L/) from Snap’s Creative Vision Research team that was accepted into CVPR this year, one of the most important and major computer vision and ML conferences in the world, where we also presented a live demo. This model and template in Lens Studio showcases how Snap’s research becomes an applied project that any developer can use.
 
-- [Inference Notebook]()
-- [Guide]()
-- [Lens Studio Project]()
+- [Inference Notebook](Neural%20Rendering/Realtime%20Neural%20Rendering.ipynb)
+- [Guide](Neural%20Rendering/Advanced%20Neural%20Rendering%20Guide.md)
+- [Lens Studio Project](Neural%20Rendering/Lens%20Studio%20Projects/360)
 
 
 
