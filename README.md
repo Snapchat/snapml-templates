@@ -93,7 +93,7 @@ Through Snap’s partnership with OpenCV, we are bringing to you a training note
 - [Training Notebook](https://github.com/Snapchat/snapml-templates/blob/main/Optical%20Character%20Recognition/Optical%20Character%20Recognition%20-%20OCR%20Training.ipynb) (optional)
 - [Template Guide](https://docs.snap.com/lens-studio/references/templates/ml/optical-character-recognition)
 
-## Real-Time 3D Model Rendering Snap ML Model
+## Real-Time Neural Rendering
 The template demonstrates how to render 3D assets real-time on device on Snapchat, using 2D images captured with a phone. There are also notebooks with training code to generate any 3D asset, and helpful guides covering how to deploy these models into a Lens.
 
 <img src="https://github.com/Snapchat/snapml-templates/assets/84346153/f66d670a-734d-405e-a541-4cb456f67b9d" width="200">
