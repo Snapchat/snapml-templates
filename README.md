@@ -107,4 +107,4 @@ This is a state-of-the-art model based on a [research paper](https://snap-resear
 
 
 ## License
-A license file is included with each folder project. The full license can be found here: https://lensstudio.snapchat.com/template-license
+A license file is included with each folder project.
