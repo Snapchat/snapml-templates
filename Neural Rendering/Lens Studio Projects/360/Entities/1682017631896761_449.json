@@ -1,0 +1,236 @@
+{
+    "1668047859902729:94127": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedSize": "5677",
+                "extension": "dnn",
+                "originalSize": "5677",
+                "settings": {
+                    "isCompressed": "false"
+                }
+            },
+            "uncompressed_file": "1682017631896817:497"
+        }
+    },
+    "1682017631896761:449": {
+        "IResourceController": {
+            "name": "Embedder",
+            "type": 22,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1668047859902729:94127",
+            "fileId": "1682017631896815:495",
+            "originalId": "1682017631896816:496",
+            "publicId": "1682017631896880:544",
+            "expected_hash": "884c80d7395cbe0599630ef56c84bc4f",
+            "additional": {
+                "compatibility_data": [
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Mul_1",
+                        "layerType": "concat"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Mul_2",
+                        "layerType": "constant"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Sin_3",
+                        "layerType": "eltwise"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Concat_4",
+                        "layerType": "sin"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "The layer type is not supported by backend",
+                                "isCompatible": "false",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "onnx::Concat_5",
+                        "layerType": "cos"
+                    },
+                    {
+                        "compatibilityInfos": [
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "0"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "1"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "2"
+                            },
+                            {
+                                "info": "",
+                                "isCompatible": "true",
+                                "type": "3"
+                            }
+                        ],
+                        "layerName": "embbrays",
+                        "layerType": "concat"
+                    }
+                ],
+                "normalization_data": {
+                    "embbrays": {
+                        "bias": [
+                            "0"
+                        ],
+                        "scale": [
+                            "1"
+                        ]
+                    },
+                    "rays": {
+                        "bias": [
+                            "0"
+                        ],
+                        "scale": [
+                            "1"
+                        ]
+                    }
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1668047859902729:94127",
+            "name": "Files/File_1682017631896815_495.dnn",
+            "flags": 1
+        }
+    },
+    "1682017631896815:495": {
+        "IFileManager": {
+            "path": "Files/File_1682017631896815_495.dnn"
+        }
+    },
+    "1682017631896816:496": {
+        "IFileManager": {
+            "path": "Files/File_1682017631896816_496.onnx"
+        }
+    },
+    "1682017631896817:497": {
+        "IFileManager": {
+            "path": "Files/File_1682017631896817_497.dnn"
+        }
+    },
+    "1682017631896880:544": {
+        "IResourceController": {
+            "public": {
+                "path": "ML Models/Embedder.onnx",
+                "hash": "6d48e4ff33e31ea2d0722be7f820c7bb"
+            }
+        }
+    }
+}

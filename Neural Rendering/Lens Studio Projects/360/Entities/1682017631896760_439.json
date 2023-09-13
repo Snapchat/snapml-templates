@@ -1,0 +1,39 @@
+{
+    "1682017631896760:439": {
+        "IResourceController": {
+            "name": "BackgroundRemoval",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1662678268582077:1941",
+            "fileId": "1682017631896812:493",
+            "originalId": "1682017631896813:494",
+            "publicId": "1682017631896880:543",
+            "expected_hash": "8204c0b0dcf7fb6439ff19039156f382"
+        },
+        "IResourceManager": {
+            "uid": "1662678268582077:1941",
+            "name": "Files/File_1682017631896812_493",
+            "flags": 1
+        }
+    },
+    "1682017631896812:493": {
+        "IFileManager": {
+            "path": "Files/File_1682017631896812_493"
+        }
+    },
+    "1682017631896813:494": {
+        "IFileManager": {
+            "path": "Files/File_1682017631896813_494.lsmat"
+        }
+    },
+    "1682017631896880:543": {
+        "IResourceController": {
+            "public": {
+                "path": "Materials/BackgroundRemoval.lsmat",
+                "hash": "a4c6cfb4d33446dd5cbfe057f5de41b6"
+            }
+        }
+    }
+}

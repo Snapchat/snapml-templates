@@ -1,0 +1,14 @@
+# Shipped by Lens Studio
+Entities/* -diff linguist-generated
+Scene/**/* -diff linguist-generated
+project.data filter=lfs diff=lfs merge=lfs -text
+scene.scn filter=lfs diff=lfs merge=lfs -text
+Public/**/* filter=lfs diff=lfs merge=lfs -text
+Public/**/*.js !filter !diff !lfs text
+Public/**/*.json !filter !diff !lfs text
+Public/**/*.ts !filter !diff !lfs text
+Public/**/*.md !filter !diff !lfs text
+Public/**/*.txt !filter !diff !lfs text
+Public/**/*.rtf !filter !diff !lfs text
+Public/**/*.svg !filter !diff !lfs text
+Public/**/*.css !filter !diff !lfs text

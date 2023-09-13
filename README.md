@@ -89,10 +89,22 @@ Through Snap’s partnership with OpenCV, we are bringing to you a training note
 
 <img src="https://github.com/Snapchat/snapml-templates/assets/84346153/980cecdb-24e8-4abd-897e-288ac39517e6.gif" width="200">
 
-
 - [Inference Notebook](https://github.com/Snapchat/snapml-templates/blob/main/Optical%20Character%20Recognition/Optical%20Character%20Recognition%20-%20ONNX%20Inference.ipynb)
 - [Training Notebook](https://github.com/Snapchat/snapml-templates/blob/main/Optical%20Character%20Recognition/Optical%20Character%20Recognition%20-%20OCR%20Training.ipynb) (optional)
 - [Template Guide](https://docs.snap.com/lens-studio/references/templates/ml/optical-character-recognition)
 
+## Real-Time Neural Rendering
+The template demonstrates how to render 3D assets real-time on device on Snapchat, using 2D images captured with a phone. There are also notebooks with training code to generate any 3D asset, and helpful guides covering how to deploy these models into a Lens.
+
+<img src="https://github.com/Snapchat/snapml-templates/assets/84346153/f66d670a-734d-405e-a541-4cb456f67b9d" width="200">
+
+This is a state-of-the-art model based on a [research paper](https://snap-research.github.io/MobileR2L/) from Snap’s Creative Vision Research team that was accepted into CVPR this year, one of the most important and major computer vision and ML conferences in the world, where we also presented a live demo. This model and template in Lens Studio showcases how Snap’s research becomes an applied project that any developer can use.
+
+- [Inference Notebook](Neural%20Rendering/Realtime%20Neural%20Rendering.ipynb)
+- [Guide](Neural%20Rendering/Advanced%20Neural%20Rendering%20Guide.md)
+- [Lens Studio Project](Neural%20Rendering/Lens%20Studio%20Projects/360)
+
+
+
 ## License
-A license file is included with each folder project. The full license can be found here: https://lensstudio.snapchat.com/template-license
+A license file is included with each folder project.

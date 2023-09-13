@@ -1,0 +1,239 @@
+{
+    "lens_id": "",
+    "document_id": "VanbP3ZAMxY5oECjd5el",
+    "original_document_id": "eGLJ86FBs7wUsaN_f_Zk",
+    "version": "31",
+    "preview": "icon.png",
+    "videoPreview": "preview.mp4",
+    "videoPreviewUpdateTime": "",
+    "isReadOnly": "false",
+    "isAutoSaved": "false",
+    "api_level": "public",
+    "public_api_user_data_access": "unrestricted",
+    "studioVersion": {
+        "createdWith": {
+            "type": "Public",
+            "major": "4",
+            "minor": "25",
+            "patch": "0",
+            "build": "0"
+        },
+        "lastSavedWith": {
+            "type": "Public",
+            "major": "4",
+            "minor": "40",
+            "patch": "1",
+            "build": "0"
+        }
+    },
+    "view": {
+        "InspectorUiComponent": "",
+        "MapUiComponent": {
+            "mapPinPoints": {
+                "1649082416475574:107527": {
+                    "longitude": "0",
+                    "latitude": "0",
+                    "selected": "false",
+                    "valid": "false",
+                    "pinName": "",
+                    "pinUid": "-1:-1",
+                    "locationAsset": "-1:-1"
+                },
+                "1649082427199232:110271": {
+                    "longitude": "0",
+                    "latitude": "0",
+                    "selected": "false",
+                    "valid": "false",
+                    "pinName": "",
+                    "pinUid": "-1:-1",
+                    "locationAsset": "-1:-1"
+                },
+                "1649082439729750:113424": {
+                    "longitude": "0",
+                    "latitude": "0",
+                    "selected": "false",
+                    "valid": "false",
+                    "pinName": "",
+                    "pinUid": "-1:-1",
+                    "locationAsset": "-1:-1"
+                },
+                "1649082450030542:116090": {
+                    "longitude": "0",
+                    "latitude": "0",
+                    "selected": "false",
+                    "valid": "false",
+                    "pinName": "",
+                    "pinUid": "-1:-1",
+                    "locationAsset": "-1:-1"
+                },
+                "1649082460630816:118829": {
+                    "longitude": "0",
+                    "latitude": "0",
+                    "selected": "false",
+                    "valid": "false",
+                    "pinName": "",
+                    "pinUid": "-1:-1",
+                    "locationAsset": "-1:-1"
+                },
+                "1649082471244376:121575": {
+                    "longitude": "0",
+                    "latitude": "0",
+                    "selected": "false",
+                    "valid": "false",
+                    "pinName": "",
+                    "pinUid": "-1:-1",
+                    "locationAsset": "-1:-1"
+                },
+                "1649082481781800:124296": {
+                    "longitude": "0",
+                    "latitude": "0",
+                    "selected": "false",
+                    "valid": "false",
+                    "pinName": "",
+                    "pinUid": "-1:-1",
+                    "locationAsset": "-1:-1"
+                },
+                "1649082491465116:126851": {
+                    "longitude": "0",
+                    "latitude": "0",
+                    "selected": "false",
+                    "valid": "false",
+                    "pinName": "",
+                    "pinUid": "-1:-1",
+                    "locationAsset": "-1:-1"
+                },
+                "1649082504700263:130155": {
+                    "longitude": "0",
+                    "latitude": "0",
+                    "selected": "false",
+                    "valid": "false",
+                    "pinName": "",
+                    "pinUid": "-1:-1",
+                    "locationAsset": "-1:-1"
+                },
+                "1649083114749264:286916": {
+                    "longitude": "-0.13116145133972168",
+                    "latitude": "51.512794494628906",
+                    "selected": "false",
+                    "valid": "true",
+                    "pinName": "Pin",
+                    "pinUid": "1649083114749061:286915",
+                    "locationAsset": "1649083114749736:286917"
+                }
+            },
+            "mapCurrentPosition": {
+                "x": "-0.131214619",
+                "y": "51.5132256"
+            }
+        },
+        "Material::UiComponent": "",
+        "MetaInfoUIComponent": {
+            "icon_hash": "56814dbefc6c60009fe6066406087653",
+            "icon_path": "icon.png",
+            "hints": [
+                "lens_hint_rotate_your_phone"
+            ],
+            "lens": "NeRF",
+            "applicability": "3",
+            "lens_descriptors": "",
+            "sg": "false",
+            "Spectacles2021UseAllowed": "false"
+        },
+        "ObjectTracking3DUIComponent": "",
+        "PreviewUiComponent": {
+            "preview_descriptor": {
+                "is_capture": "0",
+                "camera_type": "2"
+            },
+            "show_snap_ui": "true",
+            "show_sponsored_ui": "false",
+            "preview_images_project_config": {
+                "back_preview_id": "bundle:Preview\/Images\/Beach.jpg",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/Images\/Person 1.jpg",
+                "front_preview_is_favorite": "false"
+            },
+            "preview_videos_project_config": {
+                "back_preview_id": "bundle:Preview\/Videos\/Beach.webm",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/Videos\/Idle Person 1.webm",
+                "front_preview_is_favorite": "false"
+            },
+            "preview_ie_project_config": {
+                "back_preview_id": "bundle:Preview\/InteractiveEnvironments\/Colorful Home",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/InteractiveEnvironments\/Colorful Home",
+                "front_preview_is_favorite": "false"
+            }
+        },
+        "ResourceUiComponent": "",
+        "SceneTreeUiComponent": "",
+        "Script::UiComponent": "",
+        "VFX::UiComponent": ""
+    },
+    "model": {
+        "IFileManager": "",
+        "IResourceManager": {
+            "MaterialUpdateManager": {
+                "unrecognizedMaterials": ""
+            }
+        },
+        "LayerComponent": {
+            "nextLayerId": "3",
+            "showOrthographicLayer": "false",
+            "layersInfo": [
+                {
+                    "layerId": "0",
+                    "layerName": "Default Layer",
+                    "layerMask": "1",
+                    "colorCode": "20"
+                },
+                {
+                    "layerId": "1",
+                    "layerName": "Orthographic Layer",
+                    "layerMask": "1048576",
+                    "colorCode": "21"
+                },
+                {
+                    "layerId": "2",
+                    "layerName": "Logger",
+                    "layerMask": "2",
+                    "colorCode": "0"
+                }
+            ]
+        },
+        "RemoteApi::ModelManager": {
+            "api_specs": ""
+        },
+        "RenderOrderComponent": "",
+        "WorldComponent": {
+            "sceneFile": "Scene",
+            "sceneType": "splitScene",
+            "hitTestDisabledObjectsList": {
+                "type_name": "array"
+            }
+        }
+    },
+    "controller": {
+        "AssetImportController": {
+            "itemUidToID": ""
+        },
+        "Compression::IController": "",
+        "DigitalGoodsController": {
+            "digital_goods": ""
+        },
+        "IResourceController": "",
+        "InspectorController": "",
+        "ObjectPrefabController": {
+            "state": {
+                "objectToInfo": ""
+            },
+            "importInfo": ""
+        },
+        "ObjectTracking3DController": {
+            "hand_tracking_mode": "0"
+        }
+    },
+    "templateName": "Empty Project",
+    "templateUrl": "Lens Studio version 4.25.0"
+}

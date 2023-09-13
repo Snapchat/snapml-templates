@@ -1,0 +1,17 @@
+{
+    "1682017631896758:423": {
+        "IResourceController": {
+            "name": "Physics Root World Settings",
+            "type": 36,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "8675309:9035768"
+        },
+        "IResourceManager": {
+            "uid": "8675309:9035768",
+            "name": "Physics Root World Settings Asset",
+            "flags": 0
+        }
+    }
+}

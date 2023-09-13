@@ -1,0 +1,17 @@
+{
+    "1691775759710132:3116813": {
+        "IResourceController": {
+            "name": "output Proxy Texture",
+            "type": 1,
+            "subtype": 19,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1691775759710125:3116812"
+        },
+        "IResourceManager": {
+            "uid": "1691775759710125:3116812",
+            "name": "output Proxy Texture",
+            "flags": 0
+        }
+    }
+}
